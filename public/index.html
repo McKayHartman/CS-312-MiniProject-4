@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BlogSite</title>
+  <!-- Bootstrap and style.css -->
+  <link 
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
+  rel="stylesheet" >
+
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+
+  <div class="container-fluid">
+
+    <div class="leftDiv">
+      <!-- display posts -->
+      <div id="postDisplay">
+        <!-- posts go in here -->
+      </div>
+    
+
+  </div>
+
+
+
+   <!-- text input -->
+    <div id="postSubmissionForm" class="rightDiv">
+
+      <!-- Name (Author) input -->
+      <form>
+        <div id="postBoxDiv" class="form-group">
+            <input id="nameInput" class="form-control" placeholder="Name">
+        </div>
+      </form>
+      <form>
+        <div id="postBoxDiv" class="form-group">
+          <input id="titleInput" class="form-control" placeholder="Title">
+        </div>
+      </form>
+      <!-- Text box for post -->
+      <form>
+        <div class="mb-3">
+          <textarea id="typingBox" class="form-control" rows="5" placeholder="Your post here"></textarea>
+        </div>
+        <button id="postSubmitBtn" type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+    </div>
+    <!-- logout button -->
+    <div id="logoutDiv">
+      <form action="/logout" method="GET">
+        <button id="logoutBtn" type="submit" class="btn btn-secondary">Logout</button>
+      </form>
+    </div>
+  
+  <script src="./app.js"></script>
+
+</body>
+</html>

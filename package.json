@@ -1,0 +1,32 @@
+{
+  "name": "cs-312-miniproject-1",
+  "version": "1.0.0",
+  "description": "Blog website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McKayHartman/CS-312-MiniProject-1.git"
+  },
+  "author": "McKay Hartman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/McKayHartman/CS-312-MiniProject-1/issues"
+  },
+  "homepage": "https://github.com/McKayHartman/CS-312-MiniProject-1#readme",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bootstrap": "^5.3.8",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "node": "^24.8.0",
+    "pg": "^8.16.3",
+    "react": "^19.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
