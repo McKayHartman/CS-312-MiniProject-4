@@ -40,6 +40,15 @@
 	padding: 10px;
 }
 
+#inputForm {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+#inputForm > :not(button) {
+    border-radius: 6px;
+    
+}
 #postDisplay {
 	border: solid;
 	border-color: black;
